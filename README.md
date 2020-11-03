@@ -1,3 +1,12 @@
+
+<!-- markdownlint-disable line-length -->
+[![End to End Tests](https://github.com/submariner-io/submariner/workflows/End%20to%20End%20Tests/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22End+to+End+Tests%22+branch%3Amaster)
+[![Unit Tests](https://github.com/submariner-io/submariner/workflows/Unit%20Tests/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Unit+Tests%22)
+[![Linting](https://github.com/submariner-io/submariner/workflows/Linting/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3ALinting+branch%3Amaster)
+[![Release Images](https://github.com/submariner-io/submariner/workflows/Release%20Images/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Release+Images%22)
+[![Periodic](https://github.com/submariner-io/submariner/workflows/Periodic/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3APeriodic+branch%3Amaster)
+<!-- markdownlint-enable line-length -->
+
 # Submariner
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -16,14 +25,6 @@
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-<!-- markdownlint-disable line-length -->
-[![End to End Tests](https://github.com/submariner-io/submariner/workflows/End%20to%20End%20Tests/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22End+to+End+Tests%22+branch%3Amaster)
-[![Unit Tests](https://github.com/submariner-io/submariner/workflows/Unit%20Tests/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Unit+Tests%22)
-[![Linting](https://github.com/submariner-io/submariner/workflows/Linting/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3ALinting+branch%3Amaster)
-[![Release Images](https://github.com/submariner-io/submariner/workflows/Release%20Images/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Release+Images%22)
-[![Periodic](https://github.com/submariner-io/submariner/workflows/Periodic/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3APeriodic+branch%3Amaster)
-<!-- markdownlint-enable line-length -->
 
 Submariner is a tool built to connect overlay networks of different Kubernetes clusters. While most testing is performed against Kubernetes
 clusters that have enabled Flannel/Calico/Canal/Weave/OpenShiftSDN, Submariner should be compatible with any CNI cluster network
