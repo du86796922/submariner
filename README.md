@@ -22,7 +22,8 @@
 [![Unit Tests](https://github.com/submariner-io/submariner/workflows/Unit%20Tests/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Unit+Tests%22)
 [![Linting](https://github.com/submariner-io/submariner/workflows/Linting/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3ALinting)
 [![Release Images](https://github.com/submariner-io/submariner/workflows/Release%20Images/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Release+Images%22)
-[![Periodic](https://github.com/submariner-io/submariner/workflows/Periodic/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3APeriodic)
+[![Periodic E2E](https://github.com/submariner-io/submariner/workflows/Periodic%20E2E/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Periodic+E2E%22)
+[![Periodic Linting](https://github.com/submariner-io/submariner/workflows/Periodic%20Linting/badge.svg)](https://github.com/submariner-io/submariner/actions?query=workflow%3A%22Periodic+Linting%22)
 <!-- markdownlint-enable line-length -->
 
 Submariner is a tool built to connect overlay networks of different Kubernetes clusters. While most testing is performed against Kubernetes
