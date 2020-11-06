@@ -187,6 +187,7 @@ func NewController(clusterID string, clusterCidr, serviceCidr []string, objectNa
 
 func (r *Controller) Run(stopCh <-chan struct{}) error {
 	defer utilruntime.HandleCrash()
+	defer r.gatewayToNonGatewayTransitionCleanups()
 
 	// Start the informer factories to begin populating the informer caches
 	klog.Infof("Starting Route Controller. ClusterID: %s, localClusterCIDR: %v, localServiceCIDR: %v", r.clusterID, r.localClusterCidr,
